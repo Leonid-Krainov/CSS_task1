@@ -11,26 +11,27 @@ body{
 
 .content {
 	width: 840px;
-	padding: 20px 30px 20px 30px;
+	/*padding: 20px 30px 20px 30px;*/
 	background-color: #fff;
-	margin: 0 auto;
+	margin: auto;
 	margin-top: 100px;
 }
 .content .content-top {
 	background-image: url("img/content-bg.png");
 	height: 12px;
-	margin: -20px -30px -20px -30px;
-    background-size: 1800px 12px;
+	background-position: left;
+	/*margin: -20px -30px -20px -30px;*/
+    /*background-size: 1800px 12px;*/
 }
 .content .content-bottom {
 	background-image: url("img/content-bg.png");
 	height: 12px;
-	margin: -20px -30px -20px -30px;
-    background-size: 1800px 12px;
-    background-position: right;
+	background-position: right;
+	/*margin: -20px -30px -20px -30px;*/
+    /*background-size: 1800px 12px;*/
 }
 .content .content-middle {
-	margin: 20px 30px 20px 30px;
+	padding: 20px 30px;
 }
 	
 h1 { 
@@ -46,14 +47,15 @@ h2 {
 	color: #2b8c57;
 	font-weight: normal;
 	font-style: italic;
-	margin: 30px 0px 15px 0px;
+	margin-top: 30px;
+	margin-bottom: 15px;
 }
 	
 div.block-1 {
 	color: white;
 	font-style: italic;
 	font-size: 12px;
-	padding: 20px 30px 20px 30px;
+	padding: 20px 30px;
 	background-color: #2b8c57;
 	background-image: url("img/block-1-bg.png");
 	background-repeat: repeat-x;
@@ -62,7 +64,7 @@ div.block-2 {
 	color: white;
 	font-style: italic;
 	font-size: 12px;
-	padding: 20px 30px 20px 30px;
+	padding: 20px 30px;
 	background-color: #356149;
     background-image: url("img/picture-1.png");
     background-repeat: no-repeat;
